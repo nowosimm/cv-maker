@@ -1,0 +1,83 @@
+.cv__Container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    flex-grow: 1;
+    margin: 20px;
+    background-color: white;
+    padding: 40px;
+    line-height: 1.3;
+    height: 100vh;
+}
+
+.divider {
+    border: .25px solid black;
+}
+
+.divider__Text {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+}
+
+/* header */
+.header__Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+ .header__Name {
+    font-size: 35px;
+    margin: 10px;
+ }
+
+ .header__DetailsContainer {
+    display: flex;
+    margin: 10px;
+ }
+
+ .header__Email, .header__Phone, .header__Location {
+    padding: 10px;
+    font-size: 17px;
+ }
+
+
+ /* education and experience */
+.education__Container, .experience__Container {
+    padding-top: 15px;
+    display: flex;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+
+
+.entry__Left {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.entry__Right {
+    margin-left: 20px;
+}
+
+.entry__Date {
+    display: flex;
+}
+
+.entry__DateSeparator {
+    padding: 0px 5px;
+}
+
+.entry__Header {
+    font-weight: 600;
+}
+
+.entry__Description {
+    margin-top: 7px;
+}
+
+
+

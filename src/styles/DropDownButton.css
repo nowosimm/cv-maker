@@ -1,0 +1,35 @@
+.dropDown {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    margin: 24px;
+    border-radius: 10px;
+}
+
+.dropDown__Container {
+    height: 0;
+    visibility: hidden;
+}
+
+.dropDown__Container.open {
+    height: auto;
+    visibility: visible;
+    padding-top: 30px;
+}
+
+.dropDown__Button {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+}
+
+.dropDown__Button:hover {
+    cursor: pointer;
+}

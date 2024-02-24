@@ -1,0 +1,18 @@
+.input__Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input__Field {
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    background-color: rgb(245, 245, 245);
+    width: 300px
+}
+
+.input {
+    padding: 10px 0;
+    display: flex;
+}
